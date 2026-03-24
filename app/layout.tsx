@@ -1,22 +1,12 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Suspense } from "react"
-import "./globals.css"
-import "@fortawesome/fontawesome-free/css/all.min.css";
-import "@/styles/oldmcitistyles/hero.mobile.css";
-import "@/styles/oldmcitistyles/capabilities.mobile.css";
-import "@/styles/oldmcitistyles/sectors.mobile.css";
-import "@/styles/oldmcitistyles/fieDash.mobile.css";
-import "@/styles/oldmcitistyles/benefits.mobile.css";
-import "@/styles/oldmcitistyles/navbar.mobile.css";
-import "@/styles/oldmcitistyles/how.css"
-
 
 
 export const metadata: Metadata = {
-  title: "Ottonomi AI",
+  title: "Globeye",
   description:
-      "Transform traffic data into autonomous insights and real-time control for smarter, safer cities with Ottonomi AI.",
+      "Turn Cameras Into Operational Intelligence",
   icons: {
     icon: "/favicon.png",     // or /favicon.ico
     shortcut: "/favicon.png",
