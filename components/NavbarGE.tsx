@@ -2,11 +2,14 @@ export function NavbarGE() {
     return (
         <div className="nav-wrap">
             <nav className="container">
-                <div className="brand">
-                    <div className="brand-mark" />
+                <div className="brand flex items-center gap-2">
+                    <img
+                        src="/favicon.png"
+                        alt="Globeye logo"
+                        className="h-[32px] w-[32px] object-contain"
+                    />
                     <div>Globeye</div>
                 </div>
-
                 <div className="nav-links">
                     <a href="#why">Why Globeye</a>
                     <a href="#how">How It Works</a>
