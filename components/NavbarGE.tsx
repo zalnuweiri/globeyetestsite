@@ -4,9 +4,9 @@ export function NavbarGE() {
             <nav className="container">
                 <div className="brand flex items-center gap-2">
                     <img
-                        src="/favicon.png"
+                        src="/GeFINAL.png"
                         alt="Globeye logo"
-                        className="h-[32px] w-[32px] object-contain"
+                        style={{ height: "24px", width: "auto" }}
                     />
                     <div>Globeye</div>
                 </div>

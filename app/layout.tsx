@@ -1,6 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Suspense } from "react"
+import "./globals.css";
 
 
 export const metadata: Metadata = {
@@ -8,9 +9,9 @@ export const metadata: Metadata = {
   description:
       "Turn Cameras Into Operational Intelligence",
   icons: {
-    icon: "/favicon.png",     // or /favicon.ico
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    icon: "/favicon.ico",     // or /favicon.png
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 }
 
