@@ -609,3 +609,8 @@ footer{
         align-items:flex-start;
     }
 }
+
+.icon img {
+    max-width: 100%;
+    max-height: 100%;
+}

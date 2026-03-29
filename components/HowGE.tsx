@@ -2,6 +2,17 @@ export function HowGE() {
     return (
         <section className="block" id="how">
             <div className="container">
+
+                {/* 🔥 THIS WAS MISSING */}
+                <div className="section-head center">
+                    <div className="label">How It Works</div>
+                    <h2>Designed to Fit Existing Operations</h2>
+                    <p>
+                        Globeye lowers adoption friction by working with existing camera infrastructure while adding
+                        AI-driven interpretation, structured alerts, and centralized operational visibility.
+                    </p>
+                </div>
+
                 <div className="steps">
                     <div className="step">
                         <div className="step-no">1</div>
