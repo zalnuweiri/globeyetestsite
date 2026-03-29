@@ -24,7 +24,7 @@ export function WhyGE() {
                             <img
                                 src="/icons/digital-twin.png"
                                 alt="Digital Twin icon by Arkinasi"
-                                className="w-[px] h-[20px] object-contain"
+                                className="object-contain"
                             />
                         </div>
                         <h3>Digital Twin</h3>
@@ -37,7 +37,6 @@ export function WhyGE() {
                                 stroke="#d12e47"
                                 size={43}
                                 strokeWidth={2}
-                                style={{ transform: "translateX(2px)" }}
                             />
                         </div>
                         <h3>Alerts</h3>
