@@ -1,9 +1,8 @@
-import { DashboardGE } from './DashboardGE';
 export function HeroGE() {
     return (
         <section className="hero">
             <div className="container hero-grid">
-                <div>
+                <div className="hero-content">
                     <div className="eyebrow">
                         Activity-Aware Monitoring • Digital Twin Intelligence
                     </div>
@@ -28,7 +27,13 @@ export function HeroGE() {
                     </div>
                 </div>
 
-                <DashboardGE />
+                <div className="hero-image-wrap">
+                    <img
+                        src="/dash1.png"
+                        alt="Globeye digital twin platform dashboard"
+                        className="hero-image scale-[1.3] pl-10"
+                    />
+                </div>
             </div>
         </section>
     );

@@ -3,7 +3,7 @@ export function HowGE() {
         <section className="block" id="how">
             <div className="container">
 
-                {/* 🔥 THIS WAS MISSING */}
+                {/* THIS WAS MISSING */}
                 <div className="section-head center">
                     <div className="label">How It Works</div>
                     <h2>Designed to Fit Existing Operations</h2>
