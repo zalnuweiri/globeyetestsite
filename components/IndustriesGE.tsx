@@ -28,6 +28,14 @@ export function IndustriesGE() {
                         <p>Crowd awareness and incident detection.</p>
                     </div>
                 </div>
+                <div className="flex justify-center px-4 pt-14">
+                    <img
+                        src="/dash5.png"
+                        alt="Globeye dashboard preview"
+                        className="w-[950px] max-w-full h-auto object-contain"
+                    />
+                </div>
+
             </div>
         </section>
     );

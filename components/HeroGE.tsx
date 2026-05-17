@@ -20,18 +20,19 @@ export function HeroGE() {
                     </div>
 
                     <div className="hero-meta">
-                        <span className="hero-chip">Cloud, Edge, or Hybrid</span>
+                        <span className="hero-chip">Edgefirst AI</span>
                         <span className="hero-chip">Uses Existing Cameras</span>
                         <span className="hero-chip">Policy-Aware Alerts</span>
                         <span className="hero-chip">Digital Twin Mapping</span>
                     </div>
                 </div>
 
+                {/* add hint: "click to open" and click to open func*/}
                 <div className="hero-image-wrap">
                     <img
-                        src="/dash1.png"
+                        src="/dash4.png"
                         alt="Globeye digital twin platform dashboard"
-                        className="hero-image scale-[1.3] pl-10"
+                        className="hero-image pl-10"
                     />
                 </div>
             </div>

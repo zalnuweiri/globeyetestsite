@@ -5,7 +5,7 @@ export function TrustGE() {
                 <div className="trust-bar">
                     <div className="trust-item">
                         <span>Deployment</span>
-                        <strong>Cloud • Edge • Hybrid</strong>
+                        <strong>Edgefirst AI</strong>
                     </div>
                     <div className="trust-item">
                         <span>Positioning</span>

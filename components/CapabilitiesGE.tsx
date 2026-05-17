@@ -2,11 +2,20 @@ export function CapabilitiesGE() {
     return (
         <section className="block" id="capabilities">
             <div className="container">
+                <div className="flex justify-center px-4 pb-14">
+                    <img
+                        src="/dash7.png"
+                        alt="Globeye dashboard preview"
+                        className="w-[950px] max-w-full h-auto object-contain"
+                    />
+                </div>
+
                 <div className="section-head">
                     <div className="label">Core Capabilities</div>
                     <h2>Operational Supervision Across the Facility</h2>
                     <p>
-                        Globeye unifies live monitoring, analytics, alerting, and investigation into a single product layer.
+                        Globeye unifies live monitoring, analytics, alerting, and investigation into a single product
+                        layer.
                     </p>
                 </div>
 

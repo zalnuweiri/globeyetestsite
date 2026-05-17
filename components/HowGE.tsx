@@ -3,6 +3,14 @@ export function HowGE() {
         <section className="block" id="how">
             <div className="container">
 
+                <div className="flex justify-center px-4 pb-10">
+                    <img
+                        src="/dash3.png"
+                        alt="Globeye dashboard preview"
+                        className="w-[950px] max-w-full h-auto object-contain"
+                    />
+                </div>
+
                 {/* THIS WAS MISSING */}
                 <div className="section-head center">
                     <div className="label">How It Works</div>
@@ -33,6 +41,7 @@ export function HowGE() {
                     </div>
                 </div>
             </div>
+
         </section>
     );
 }
