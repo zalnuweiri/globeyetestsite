@@ -30,7 +30,7 @@ export function HeroGE() {
                 {/* add hint: "click to open" and click to open func*/}
                 <div className="hero-image-wrap">
                     <img
-                        src="/dash4.png"
+                        src="/herolitemode.png"
                         alt="Globeye digital twin platform dashboard"
                         className="hero-image pl-10"
                     />
