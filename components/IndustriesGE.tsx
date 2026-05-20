@@ -14,13 +14,13 @@ export function IndustriesGE() {
                     </div>
 
                     <div className="industry">
-                        <h3>Retail</h3>
+                        <h3>Retail & Shopping Centres</h3>
                         <p>Visitor flow and congestion detection.</p>
                     </div>
 
                     <div className="industry">
-                        <h3>Warehouses</h3>
-                        <p>Vehicle activity and zone control.</p>
+                        <h3>Industrial Plants & Facilities</h3>
+                        <p>PPE Compliance, and Unauthorized Access .</p>
                     </div>
 
                     <div className="industry">
