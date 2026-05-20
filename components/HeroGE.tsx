@@ -4,15 +4,19 @@ export function HeroGE() {
             <div className="container hero-grid">
                 <div className="hero-content">
                     <div className="eyebrow">
-                        Activity-Aware Monitoring • Digital Twin Intelligence
+                        Activity-Aware Monitoring & Digital Twin Intelligence
                     </div>
 
-                    <h1>Turn Cameras Into Operational Intelligence</h1>
+                    <h1 className="text-white">Turn Cameras Into Operational Intelligence</h1>
 
-                    <p>
+                    {/*<p>
                         Globeye transforms existing camera infrastructure into a holistic
                         video security and operational intelligence platform.
-                    </p>
+                    </p>*/}
+
+                    {/* Look for chunky square like kinda font for the see more do more*/}
+                    <p className="text-2xl leading-[1.5] text-gray-500 p-1 pb-5"> <span className="text-green-500">See More • </span>
+                        <span className="text-red-700">Do More</span></p>
 
                     <div className="hero-cta">
                         <a href="#contact" className="btn btn-primary">Request Demo</a>
@@ -30,7 +34,7 @@ export function HeroGE() {
                 {/* add hint: "click to open" and click to open func*/}
                 <div className="hero-image-wrap">
                     <img
-                        src="/herolitemode.png"
+                        src="/heroog.png"
                         alt="Globeye digital twin platform dashboard"
                         className="hero-image pl-10"
                     />

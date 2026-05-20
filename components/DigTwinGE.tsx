@@ -91,13 +91,6 @@ export function DigTwinGE() {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center px-4 pt-15">
-                <img
-                    src="/dash1.png"
-                    alt="Globeye dashboard preview"
-                    className="w-[950px] max-w-full h-auto object-contain"
-                />
-            </div>
         </section>
     );
 }

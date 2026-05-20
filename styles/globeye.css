@@ -119,10 +119,11 @@ nav{
 .hero{
     position:relative;
     overflow:hidden;
-    background:
+    /*background:
             radial-gradient(circle at 15% 15%, rgba(37,99,235,.12), transparent 28%),
             radial-gradient(circle at 85% 12%, rgba(14,165,233,.12), transparent 24%),
-            linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
+            linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);*/
+    background: #0d172a;
     padding:72px 0 46px;
 }
 .hero-grid{
@@ -130,6 +131,7 @@ nav{
     grid-template-columns:1.08fr .92fr;
     gap:34px;
     align-items:center;
+
 }
 .eyebrow{
     display:inline-flex;
@@ -151,12 +153,12 @@ nav{
     line-height:1.02;
     letter-spacing:-0.04em;
 }
-.hero p{
+/*.hero p{
     font-size:18px;
     color:#475569;
     max-width:700px;
     margin:0 0 28px;
-}
+}*/
 .hero-cta{
     display:flex;
     gap:14px;
