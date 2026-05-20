@@ -367,7 +367,7 @@ section.block{
 }
 .section-head h2{
     margin:0 0 12px;
-    font-size:clamp(30px, 4vw, 44px);
+    font-size:clamp(32px, 5vw, 54px);
     line-height:1.08;
     letter-spacing:-0.03em;
 }

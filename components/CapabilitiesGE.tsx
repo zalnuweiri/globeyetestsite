@@ -2,13 +2,6 @@ export function CapabilitiesGE() {
     return (
         <section className="block" id="capabilities">
             <div className="container">
-                <div className="flex justify-center px-4 pb-14">
-                    <img
-                        src="/dash7.png"
-                        alt="Globeye dashboard preview"
-                        className="w-[950px] max-w-full h-auto object-contain"
-                    />
-                </div>
 
                 <div className="section-head">
                     <div className="label">Core Capabilities</div>
@@ -50,6 +43,13 @@ export function CapabilitiesGE() {
                         <p>Turn detections into actionable insights.</p>
                     </div>
                 </div>
+            </div>
+            <div className="flex justify-center px-4 pt-14">
+                <img
+                    src="/dash7.png"
+                    alt="Globeye dashboard preview"
+                    className="w-[950px] max-w-full h-auto object-contain"
+                />
             </div>
         </section>
     );
