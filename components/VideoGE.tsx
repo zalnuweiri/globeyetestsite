@@ -6,15 +6,24 @@ export function VideoGE() {
                     <div className="label">Platform Demonstration</div>
                     <h2>See Activity-Aware Monitoring in Action</h2>
                     <p>
-                        Replace this placeholder with your product walkthrough video or dashboard motion demo.
+                        Watch Globeye’s activity-aware monitoring, dashboard motion, and heatmap sequence in action.
                     </p>
                 </div>
 
                 <div className="video-wrap">
                     <div className="video-box">
-                        Video Demo Placeholder
-                        <br />
-                        Product Walkthrough / Dashboard Motion / Heatmap Sequence
+                        <video
+                            className="video-demo h-full w-full"
+                            src="/factory.webm"
+                            title="factory"
+                            controls
+                            muted
+                            playsInline
+                            autoPlay={true}
+                            preload="metadata"
+                        >
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
             </div>
